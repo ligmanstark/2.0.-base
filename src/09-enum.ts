@@ -11,6 +11,18 @@ enum Grade {
 	Senior = 'senior',
 }
 
+enum CodePW {
+	ERROR_404 = 'not found',
+	ERROR_AUTH = 'Auth doesnt',
+	SOMEERROR = 'exiest',
+}
+enum TesO {
+	Warrior,
+	Clerick,
+	Mage,
+	Custer,
+}
+
 const gradeDeveloper12 = (Dev: {
 	login: string;
 	skills: string[];
